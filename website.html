@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to code a website (using HTML)</title>
+    <link rel="shortcut icon" href="website.icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="website.css">
+</head>
+
+<body style="text-align: center;margin-left: 20%;margin-right: 20%;">
+    <div id="love" style="background-color: rgb(119, 228, 228);height: 300px;">
+        <h1>How to code a website</h1>
+        <p id="rum">Learn to Bulid a Website Using HTML and CSS</p>
+    </div>
+    <p>  
+        <img src="websitepic.jfif"> <a href="https://websitesetup.org/about-and-contact/#team">shanzayeman</a>
+        <pre>
+     <input type="button" value="copylink">  <input type="button" value="X"> <input type="button" value="f">
+
+    </pre>
+    </p>
+    <hr>
+    <p id="dumb">Want to learn how to create a website with HTML and CSS?</p>
+    <br>
+    <p id="p1" style="color: black; margin-right: 16%;">You're in the right place. In this guide, we show you all the
+        steps to get from a
+        blank <br>screen to a working
+        website that's optimized ,quite good-looking at the same time.</p>
+    <br>
+    <p id="p2">But first, what is HTML and CSS?</p>
+    <br>
+    <p>
+    <p style="color: black; text-align: center;margin-right: 14%;">Well, you could just look up both terms in Wikipedia,
+        but those
+        definitions aren't very <br> reader-friendly. Let'ssimplify things a bit:</p>
+    </p>
+    <ul style="margin-left: 10%;">
+        <li style="list-style-type: circle;">HTML (HYPERTEXT Makeup Language)define the structure and contents of a web
+            <br>
+            page - <i>Where</i>things go,<i>how</i> they are laid out,<i>what's</i> on the page
+        </li>
+        <li style="list-style-type: circle; margin-right: 5%;">
+            CSS( Cascading style sheets) defines the <i>styling/presentation</i>of a web page about <br>
+            the elements on it
+        </li>
+    </ul>
+    <p id="p3">You can't really have one without the other - the two work together to make up the <br>final web page,
+        its design,
+        and the content that's on it.</p>
+    <p style="color:black; margin-right: 20%;">Note;<i>w</i>hen we say <q>a web page,</q> what we mean is a single HTML
+        document-a <br>
+        single page thats part of ur website.Whereas, <q>a website</q> is the complete thing- <br>
+        your whole site with all its indiviual web pages.</p>
+    <div style="background-color: rgb(173, 165, 154); width: auto; height: auto;">
+        <h3 style="color: black; margin-right: 75%;">Table of contents</h3>
+        <ol start="1">
+            <li style="margin-right: 75%; "><a style="color: rgb(21, 21, 206);" href="#point1"> Learn</a> the basic of
+                HTML</li>
+            <li style="margin-right: 64%;"><a style="color: rgb(21, 21, 206);" href="#point2">understand</a>HTML
+                documents structure</li>
+            <li style="margin-right: 75.4%;"><a style="color: rgb(21, 21, 206);" href="#point3">Get to know</a>CSS
+                selector</li>
+            <li style="margin-right: 72.5%;"><a style="color: rgb(21, 21, 206);" href="#point4">Put</a>a CSS stylesheet
+                together</li>
+            <li style="margin-right: 85%;"><a style="color: rgb(21, 21, 206);" href="#point5">GET</a>Bootstrap</li>
+        </ol>
+    </div>
+    <div id="point1"
+        style="background-color: rgb(241, 232, 220); height: 900px;width: 90%; text-align: center; margin-right: 30%;">
+        <h2 style="margin-right: 35%;">1. Learn the Basics of HTML</h2>
+        <p style="margin-right: 25%;color: black;">The main element of an HTML structure is an HTML <b>tag</b>.</p>
+        <p style="margin-right: 45%;color: black;">A tag, for example ,looks like this:</p>
+        <p style="margin-right: 57%;color: black;">(b)SOMETHING(/b)</p>
+        <p style="margin-right: 5%;color: black;">Here,we're dealing with a (b) tag.This one will bold piece of text
+            that's between
+            <br>
+            the opening tag(b) and the closing tag(/b).in this case ,that piece of text is <br>
+        <pre style="color: brown; margin-right: 65%;">SOMETHING.</pre>
+        </p>
+        <p style="margin-right: 35.5%;color: black;">But there are other tags, just to name a few:</p>
+        <ul style="margin-left: 10%;">
+            <li style="margin-right: 26%;">
+                <span style="color: rgb(128, 16, 16);">&lt;i&gt;....&lt;/i&gt;</span>will italicise the text between the
+                opening and closing tags
+            </li>
+            <li style="margin-right: 69%;">
+                <span style="color: rgb(110, 14, 14);">&lt;u&gt;....&lt;/u&gt;</span>will underline it
+            </li>
+            <li style="margin-right: 64%;">
+                <span style="color: rgb(107, 12, 12);">&lt;p&gt;...&lt;/p&gt;</span>is a paragraph of text
+            </li>
+            <li style="margin-right: 55%;">
+                <span style="color: rgb(107, 12, 12);">&lt;h1&gt;...&lt;/h1&gt;</span> the main header on the page
+            </li>
+        </ul>
+        <p style="margin-right: 0%;color: black;">Apart from those simple tags,there are also more complex tags.For
+            example,if you</p>
+        <p style="margin-right: 38.7%;color: black;">want to build a list like the following:</p>
+        <ul style="margin-left: 13%;">
+            <li style="margin-right: 92%;">item 1</li>
+            <li style="margin-right: 92%;">item 2</li>
+            <li style="margin-right: 92%;">item 3</li>
+        </ul>
+        <p style="margin-right:29%; color: black;">...you can do that with following HTML code</p>
+        <ul style="margin-left: 13%;list-style-type: none;">
+            <li style="margin-right:95%;">(ul)</li>
+            <li style="margin-right:85%;">(li)item 1(/li)</li>
+            <li style="margin-right:85%;">(li)item 2(/li)</li>
+            <li style="margin-right:85%;">(li)item 3(/li)</li>
+            <li style="margin-right:95%;">(ul)</li>
+        </ul>
+        <p style="margin-right: 13.7%;color: black;">Or,if you want to add a link to another page,like this one:</p>
+        <a href="https://websitesetup.org/" style="margin-right: 35%;color: rgb(48, 48, 233);">This is a link to our
+            homepage</a>
+        <p style="margin-right: 28%;color: black;">..you can do that with that piece of code</p>
+        <p style="margin-bottom: 10%;color:black;"> (a href="https://websitesetup.org/")This is a link to our
+            homepage(/a)</p>
+        <p style="margin-right: 23%;color: black;">Read this to get the <a target="_blank"
+                href="https://www.w3schools.com/tags/ref_byfunc.asp">full list of HTML tags.</a></p>
+    </div>
+    <div id="point2" style="background-color: antiquewhite; width:90%;height: 1800px;">
+        <h2 style="margin-right: 20%;">2.Understand HTML Document Structure</h2>
+        <p style="color: black; margin-left: 1.7%">Think of your HTML page as if it was built of Legos. You put
+            different bricks on top of <br> <span style="margin-right: 30%;">one another to end up with a given bigger
+                structure.</span></p>
+        <p style="color: black;margin-right: 29.8%;">But instead of Lego bricks, you get HTML tags…</p>
+        <p style="color: black;margin-right: 32%;">Here's the simplest HTML document structure:</p>
+        <p style="color: black;margin-right: 45%;"> &lt;!doctype html&gt;<br>
+            &lt;html lang="en"&gt; <br>
+            &lt;head&gt; <br>
+            &lt;meta charset="utf-8"&gt; <br>
+            &lt;title&gt;Hello, world!&lt;/title&gt; <br>
+            &lt;/head&gt; <br>
+            &lt;body&gt; <br>
+            &lt;h1&gt; Hello, world!&lt;/h1&gt; <br>
+            &lt;p&gt;My first web page.&lt;/p&gt; <br>
+            &lt;/body&gt; <br>
+            &lt;/html&gt; <br> </p>`
+        <p style="color: black;">You can take the code above, copy and paste it to a new file, save the document as <br>
+            <span style="margin-right: 20%;"><i style="color: rgb(70, 43, 8);">index.html </i> it's going to be a
+                perfectly valid HTML
+                page.</span>
+        </p>
+        <p style="color: black;margin-right: 30%;">Let's explain the individual parts of this code:</p>
+        <ul style="margin-left: 15%;">
+            <li style="color: black; margin-right: 36%;"><span style="color: rgb(179, 27, 27);">&lt;!doctype
+                    html&gt;</span> - the initial declaration of the document</li>
+            <li style="color: black;margin-right:10% ;"> <span style="color: rgb(179, 27, 27);">&lt;html
+                    lang="en&gt;</span>- another
+                declaration; says that what's to come next is an HTML <br> <span
+                    style="color: black;margin-right: 63%;">document written in English</span></li>
+            <li style="color: black;margin-right: 23%;">
+                <span style="color: rgb(145, 16, 16);">&lt;head&gt;</span>- marks the start of the head section; the
+                head section is where all the basic
+                parameters of the page go; most of those are not going tobe shown on the screen;they just define what's
+                going onunder the hood
+            </li>
+            <li style="color: black;margin-right: 9%;"><span style="color: rgb(129, 14, 14);">&lt;title&gt;Hello,
+                    world!&lt;/title&gt;</span> - the title of the page; this is what people will see in <br><span
+                    style="margin-right: 52%;">the title bar of their browsers, e.g.:</span>
+            </li>
+            <br>
+            <img src="Screenshot 2024-07-09 203832.png" style="display: block; width: 80%;">
+            <br>
+            <li style="color: black;margin-right: 10%;"><span style="color: rgb(129, 14, 14);"> &lt;body&gt;</span> -
+                marks the start of the body section; this
+                is where all the content of the <span style="margin-right: 29%;"> page goes; it's the main part of an
+                    HTML document;</span> <br><b>let us emphasize this, this section is where you're going to be
+                    including all <span style="margin-right: 65%;"> the content will appear.</span></b>
+            </li>
+            <li style="margin-right: 35%;"><span style="color: rgb(92, 10, 10);">&lt;h1&gt;Hello,
+                    world!&lt;/h1&gt;</span> - the main header on the page</li>
+            <li style="margin-right: 35%;"> <span style="color: brown;">&lt;p&gt;My first web page.&lt;/p&gt;</span>- a
+                simple paragraph of text</li>
+            <li style="margin-right: 35%;"><span style="color: rgb(112, 10, 10);">&lt;/html&gt;</span>- the closing tag
+                of the whole HTML document</li>
+        </ul>
+        <p style="color: black;margin-left: 13%; margin-right: 7%;">An important note here. Working on an HTML file in a
+            basic text
+            app or a <span style="margin-right: 2.7%;"> complex text processor like MS
+                Word is not a good experience.To make</span><span style="margin-right: 10%;">things easy on
+                yourself,install a <a href="https://websitesetup.org/best-html-editors/">HTML</a> editor called <a
+                    href="https://www.sublimetext.com/" target="_blank">Sublime
+                    Text</a>.It has versions for both Mac and PC, and is</span><span style="margin-right: 90%;">
+                free</span></p>
+        <img src="2nd pic.png" style="display: block; width: 70%; margin-left: 15%;">
+
+        <p style="color: black;margin-right: 17%;margin-left: 12%;">Okay, back on topic. You can take that new
+            index.html file of yours, copy it to where the main directory
+            of your web server is, and then see that page by navigating to it through a web browser. Don't get too
+            excited, though; this page will be rather ugly (see below)</p>
+        <img src="3rd.png" style="display: block;width: 70%;margin-left: 15%;">
+        <p style="color: black;margin-right: 29%;">okay, the page is ugly,how to make it not so? </p>
+    </div>
+    <div id="point3" style="background-color: rgb(236, 215, 188);width: 90%;height: 800%;">
+        <h2 style="margin-right: 42%;">3.Get to know CSS Selectors</h2>
+        <p style="color: black;margin-right: 40%;">Just like HTML has its tags, CSS has selectors.</p>
+        <p style="color: black;margin-right: 9%;">Selectors describe how a given element should behave appearance-wise.
+            Here's an <br>
+            <span style="margin-right: 53%;">example of a CSS selector:</span>
+        </p>
+        <pre style="color: black;margin-right: 85%">
+            p{ 
+            font-size:18px;
+            }
+        </pre>
+        <p style="color: black; margin-right: 10%;">This selector indicates that all HTML
+            tags within the document will have a font <br>
+            <span style="margin-right: 65%;">size of 18px.</span>
+        </p>
+        <p style="color: black;margin-right: 6%;">However, a more practical way of using CSS selectors is not to
+            restrict all tags of a
+            <br> <span> given type to a certain
+                styling, but rather create different “classes” and assign them </span> <br> <span
+                style="margin-right: 60%;"> to tags one by
+                one.</span>
+        </p>
+        <p style="color: black; margin-right: 34%;">For example, a class selector in CSS looks like this:</p>
+        <pre style="color: black;margin-right: 90%;">
+            .normal-text {
+                font-size: 18px;
+            }
+        </pre>
+        <p style="color: black;margin-right: 5%;">Notice the dot (.) before the name of the class (normal-text). With
+            the “normal-text” <br> class defined, we can
+            now assign that class to those specific HTML tags that we want <br><span style="margin-right: 30%;">to make
+                18px in size.</span></p>
+        <p style="color: black; margin-right: 67%;">For example:</p>
+        <p style="color: black; margin-right: 27%;">&lt;p class="normal-text"&gt;This text is going to be
+            18px.&lt;/p&gt;</p>
+        <p style="color: black;margin-right: 7%;">Let's take one more minute to explain all the elements of that piece
+            of CSS code<br><span style="margin-right: 69%;">above:</span></p>
+        <ul style="margin-left: 9%;">
+            <li style="margin-right: 15%;"><span style="color: brown;">.normal-text</span> - class definition;
+                everything after the name of the class and between <br> the opening and
+                closing brackets <span style="color: brown;">{}</span> defines what the elements assigned to
+                this<br><span style="margin-right: 73%;">class will look likeF</span></li>
+            <li style="margin-right: 60%;"><span style="color: brown;">font-size</span>- an example CSS property</li>
+            <li style="margin-right: 58%;"><span style="color: brown;">18px</span> - a value assigned to the property
+            </li>
+        </ul>
+        <p style="color: black;margin-right: 5%;">There's a ton of CSS properties apart from the above font-size. Here's
+            the<a href="https://www.w3schools.com/cssref/index.php">complete <br><span style="margin-right: 73%;">
+                    list</a></span></p>
+    </div>
+    <div id="point4" style="background-color: rgb(215, 247, 215); width: 90%;height: 700%;">
+        <h2 style="margin-right: 30%;">4. Put Together a CSS Stylesheet</h2>
+        <p style="color: black;">An HTML document is very structural - every element has its place, and the order of
+            <br>elements is crucial for
+            the final construction and appearance of the web page in the ,<br><span style="margin-right: 37%;">question.
+                A CSS document is a lot less so.</span>
+        </p>
+        <p style="color: black; margin-right: 1%;">CSS documents are often referred to as <i>stylesheets.</i> Basically,
+            a CSS stylesheet is a <br> list of all the classes
+            definitions that are being used in the corresponding to HTML <br> document. The order of the class
+            definitions is
+            not that crucial most of the time (at <br><span style="margin-right: 51%;">least for simple designs).</span>
+        </p>
+        <p style="color: black;">The way you put a CSS stylesheet together is by defining each class one by one, and
+            <br>
+            <span style="margin-right: 14.6%;">then testing if the outcome
+                in your page design is what you wanted.</span>
+        </p>
+        <p style="color: black;margin-right: 39.6%;">This sounds like tedious work, and it is</p>
+        <p style="color: black; margin-left: 3%;">But we'll make things easier on you, and not force you to learn HTML
+            and CSS design <br> by hand. Instead of
+            teaching you everything from scratch, we'll take a living organism <br><span
+                style="margin-right: 56.7%;">and dissect its elements</span></p>
+        <p style="color: black;margin-right: 24%;">This is where a thing called Bootstrap comes into play.</p>
+    </div>
+
+</body>
+
+</html>
